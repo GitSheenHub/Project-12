@@ -1,0 +1,68 @@
+body{
+	background: linear-gradient(to top, red, yellow) fixed;
+	font-family: Shojumaru;
+   
+}
+
+.container{
+	width: 300px;
+	max-width: 80%;
+	background-color: gold;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 390px;
+}
+
+.btn-grid{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 10px;
+	margin: 20px 0;
+}
+
+
+.btn{
+	background-color: tomato;
+	font-family: Shojumaru;
+	letter-spacing: 2px;
+	color: white;
+	border: 2px solid	white;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.btn:hover{
+	border-color: black;
+	color: black;
+}
+
+.btn.correct{
+	background-color: lime;
+	border: 2px solid darkgreen;
+}
+
+.btn.incorrect{
+	background-color: red;
+	border: 2px solid	darkred;
+		
+}
+
+.start-btn, .next-btn{
+	background-color: transparent;
+	border: 2px solid	darkred;
+	color: darkred;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 10px 20px;
+
+}
+
+.btn-ctrls{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hide{
+	display:none;
+}
